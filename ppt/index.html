@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Fundamentals Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-badge">JS</div>
+          <div>
+            <h1>JavaScript Fundamentals Quiz</h1>
+            <div class="brand-subtitle">Variables • Operators • Control Statements • Coding</div>
+          </div>
+        </div>
+        <button class="icon-btn" aria-label="quiz settings">☼</button>
+      </header>
+
+      <section id="intro-screen" class="screen screen-intro active" data-screen="intro">
+        <div id="intro-card" class="intro-card"></div>
+      </section>
+
+      <section id="quiz-screen" class="screen quiz-screen hidden" data-screen="quiz">
+        <div id="quiz-wrap" class="quiz-card"></div>
+      </section>
+
+      <section id="results-screen" class="screen results-screen hidden" data-screen="results">
+        <div id="results-panel" class="results-panel"></div>
+        <div id="review-list" class="review-list"></div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
